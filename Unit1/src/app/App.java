@@ -2,37 +2,35 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int count = 0;
-        String color = "blue";
-        boolean sixFeetTall = true;
-        while (count <= 10) {
-            System.out.println(count);
-            count = count + 1;
-        }
         
-        while (color == "blue"){
-            System.out.println("John is Happy");
-
-            color = "red";
+        for (int i = 0; i <= 10; i = i +1){
+            System.out.println("The count is " + i);
+            System.out.println(" lets keep counting.");
         }
 
-        while (sixFeetTall == true){
-            System.out.println("You are really tall!");
-
-            sixFeetTall = false;
-        }
-        
-        if (count > 10) {
-            System.out.println("I can count to 10");
-            
+        for (int i = 10; i <= 20; i = i +1){
+            System.out.println("The count is " + i);
+            System.out.println(" lets keep counting.");
         }
 
-        if (color == "red"){
-            System.out.println("John is sad");
+        for (int i = 10; i <= 100; i = i +1){
+            System.out.println("The count is " + i);
+            System.out.println(" lets keep counting.");
         }
 
-        if (sixFeetTall == false){
-            System.out.println("You are really short.");
+        for (int i = 1000; i <= 256000; i = i +1){
+            System.out.println("The count is " + i);
+            System.out.println(" lets keep counting.");
+        }
+
+        for (int i = 11; i <= 12; i = i +1){
+            System.out.println("The count is " + i);
+            System.out.println(" lets keep counting.");
+        }
+
+        for (int i = 10; i <= 0; i = i -1){
+            System.out.println("The count is " + i);
+            System.out.println(" lets keep counting.");
         }
     }
 }
