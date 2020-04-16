@@ -3,34 +3,29 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        for (int i = 0; i <= 10; i = i +1){
-            System.out.println("The count is " + i);
-            System.out.println(" lets keep counting.");
+        for (int i = 22; i <= 28; i = i + 3){
+            System.out.println(i);
+            
         }
 
-        for (int t = 10; t <= 20; t = t +1){
-            System.out.println("The count is " + t);
-            System.out.println(" lets keep counting.");
+        for (int y = 2; y <= 32; y = y * 2){
+            System.out.println(y);
         }
 
-        for (int y = 10; y <= 100; y = y +1){
-            System.out.println("The count is " + y);
-            System.out.println(" lets keep counting.");
+        for (int e = 3; e >= -81; e = e * e * -1){
+            System.out.println(e);
+        }
+        
+        for (int t = 50; t >= 5; t = t - 5){
+            System.out.println(t);
         }
 
-        for (int u = 1000; u <= 256000; u = u +1){
-            System.out.println("The count is " + u);
-            System.out.println(" lets keep counting.");
-        }
-
-        for (int s = 11; s <= 12; s = s +1){
-            System.out.println("The count is " + s);
-            System.out.println(" lets keep counting.");
-        }
-
-        for (int f = 10; f <= 0; f = f -1){
-            System.out.println("The count is " + f);
-            System.out.println(" lets keep counting.");
+        for (int j = 1; j <= 4; j = j + 3){
+            System.out.println(j);
+            System.out.println(j = 1);
         }
     }
+        
+
+        
 }
