@@ -2,31 +2,19 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
         
-        for (int i = 22; i <= 28; i = i + 3){
-            System.out.println(i);
-            
+
+        for (int i = 1; i <= 20; i++) {
+            if (i % 4 == 0) {
+                System.out.println(i + " is divisable by 4");
+            } else {
+                System.out.println(i + " is not dividable by 4");
+            }
         }
 
-        for (int y = 2; y <= 32; y = y * 2){
-            System.out.println(y);
-        }
+        System.out.println("all finished");
 
-        for (int e = 3; e >= -81; e = e * e * -1){
-            System.out.println(e);
-        }
-        
-        for (int t = 50; t >= 5; t = t - 5){
-            System.out.println(t);
-        }
-
-        for (int j = 1; j <= 9; j = j + 1){
-            System.out.println(j * j);
-            System.out.println(j + 3);
-            System.out.println(j);
-        }
     }
-        
 
-        
 }
