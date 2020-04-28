@@ -1,29 +1,26 @@
 package app;
+import java.util.Scanner;
+
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Start first loop");
-        for (int i = 1; i <=10; i ++){
-            if (i == 5){
-                System.out.println("five");
-            }
-            else{
-                System.out.println(i);
-            }
-        }
-        System.out.println("End First loop");
-        System.out.println("Start second loop");
-        for (int v = 10; v <= 20; v ++){
-            if (v == 16){
-                for (int k = 151; k <= 159; k ++){
-                    System.out.println(k);
-                }
-            }
-                 System.out.println(v * 10);
-            
+        Scanner input = new Scanner(System.in);
 
-        }
-        System.out.println("End second loop");
+        System.out.println("What is your first name");
+        String name = input.nextLine();
+        System.out.println("What is your last name?");  
+        String lastName = input.nextLine();
+        System.out.println("What is your favorite color?");
+        String color = input.nextLine();
+        System.out.println("How old are you?");
+        String age = input.nextLine();
+        System.out.println("what grade are you in?");
+        String grade = input.nextLine();
+        
+        System.out.println("Hello " + name + lastName + "! You are " + age + " and in grade " + grade +". Your favorite color is " + color);
+        
+        
+
     }
 
 }
