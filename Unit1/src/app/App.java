@@ -10,7 +10,7 @@ public class App {
 
         int number = input.nextInt();
         
-        for (int i = 0; i <= number; i ++){
+        for (int i = 1; i <= number; i ++){
             System.out.println(i);
         }
         
