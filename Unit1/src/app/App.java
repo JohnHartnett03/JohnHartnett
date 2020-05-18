@@ -6,32 +6,29 @@ public class App {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a number");
-        int number1 = input.nextInt();
+       Dog dog1 = new Dog();
+       Dog dog2 = new Dog();
+       Dog dog3 = new Dog();
 
-        System.out.println("Enter another number");
-        int number2 = input.nextInt();
+       dog1.name = "Bodhi";
+       dog2.name = "Bill";
+       dog3.name = "Joe";
 
-        System.out.println("Press 1 for addition");
-        System.out.println("Press 2 for subtraction");
-        System.out.println("Press 3 for multiplication");
-        System.out.println("Press 4 for division");
-        int function = input.nextInt();
+       dog1.breed = "Golden";
+       dog2.breed = "Black lab";
+       dog3.breed = "Huskey";
 
-        if (function == 1){
-            System.out.println(number1 + number2);
-        }
+       dog1.age = 2;
+       dog2.age = 3;
+       dog3.age = 6;
 
-        if (function == 2){
-            System.out.println(number1 - number2);
-        }
+       System.out.println("I have 3 dogs. The youngest is " + dog1.name + ".");
+       System.out.println("He is a " + dog1.breed + " and is " + dog1.age + ".");
 
-        if (function == 3){
-            System.out.println(number1 * number2);
-        }
-        if (function == 4){
-            System.out.println(number1 / number2);
-        }
+       System.out.println("The second oldest is " + dog2.name + ".");
+       System.out.println("He is a " + dog2.breed + " and is " + dog2.age + ".");
 
+       System.out.println("The oldest is " + dog3.name + ".");
+       System.out.println("He is a " + dog3.breed + " and is " + dog3.age + ".");
     }   
 }
