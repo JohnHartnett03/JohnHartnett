@@ -22,6 +22,18 @@ public class App {
        dog2.age = 3;
        dog3.age = 6;
 
+       dog1.color = "red";
+       dog2.color = "brown";
+       dog3.color = "black";
+
+       dog1.height = 1.5;
+       dog2.height = 3;
+       dog3.height = 4;
+
+       dog1.barks = "barks";
+       dog2.barks = "does not bark";
+       dog3.barks = "barks";
+
        System.out.println("I have 3 dogs. The youngest is " + dog1.name + ".");
        System.out.println("He is a " + dog1.breed + " and is " + dog1.age + ".");
 
